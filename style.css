@@ -292,7 +292,9 @@ input[type=submit] {
 
           display:block;
           margin:auto;
-          max-height: 360px;
+          float:left;
+          max-height: 250px;
+          max-width: 330px;
           width: 100%;
    
       }
@@ -300,10 +302,9 @@ input[type=submit] {
       .main-section {
           float: left;
           width: 100%;
-          max-width: 410px;
+          max-width: 720px;
           padding: 30px;
-          margin: 0 0 40px 130px;
-                        
+          margin: 35px 20px;
       }
 
       .sidebar {
@@ -315,12 +316,12 @@ input[type=submit] {
       }
 
       #logo {
-        margin: 0 0 0 130px;
+        margin: 0 0 0 20px;
       }
 
       nav {
         margin-top: 25px;
-        margin-right: 110px;
+        margin-right: 20px;
        }
 
       nav a {
