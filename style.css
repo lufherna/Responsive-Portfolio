@@ -291,27 +291,30 @@ input[type=submit] {
   .auth-image { 
 
           display:block;
-          margin:auto;
           float:left;
           max-height: 250px;
           max-width: 330px;
           width: 100%;
+          margin: auto;
    
       }
 
       .main-section {
-          float: left;
           width: 100%;
           max-width: 720px;
           padding: 30px;
-          margin: 35px 20px;
+          margin: 10px 20px 35px 20px;
       }
 
+      .main-section p {
+     
+           }
+
       .sidebar {
-          float: right;
           width: 100%;
-          max-width: 270px;
-          margin: 0 110px 0 20px;
+          max-width: 720px;
+          margin: 0 20px 35px 60px;
+   
                  
       }
 
@@ -330,6 +333,18 @@ input[type=submit] {
         margin-left: 15px;
         line-height: 18px;
  
+      }
+
+      #masthead {
+        margin-bottom: 0px;
+      
+
+      }
+
+      footer {
+        width: 100%;
+        max-width: 768px;
+
       }
 
   }
