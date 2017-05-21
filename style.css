@@ -303,7 +303,7 @@ input[type=submit] {
           width: 100%;
           max-width: 720px;
           padding: 30px;
-          margin: 10px 20px 35px 20px;
+          margin: 10px 20px 35px 30px;
       }
 
       .main-section p {
@@ -313,7 +313,7 @@ input[type=submit] {
       .sidebar {
           width: 100%;
           max-width: 720px;
-          margin: 0 20px 35px 60px;
+          margin: 0 20px 35px 30px;
    
                  
       }
@@ -353,7 +353,57 @@ input[type=submit] {
   
   header {
     position: static;
+    max-width: 640px;
+    width: 100%;
+
 
     }
+
+    .auth-image { 
+
+          display:block;
+          margin:auto;
+          max-height: 405px;
+          max-width: 540px;
+          width: 100%;
+   
+      }
+
+      .main-section {
+          float: left;
+          width: 100%;
+          max-width: 600px;
+          padding: 30px;
+          margin: 10px 10px 25px 10px;
+                        
+      }
+
+      .sidebar {
+          clear: both;
+          width: 100%;
+          max-width: 600px;
+          margin: 0 5px 40px 20px;
+                 
+      }
+
+      #logo {
+        max-width: 640px;
+        width: 100%;
+      }
+
+      nav {
+        margin-top: 10px;
+        margin-right: 110px;
+       }
+
+      nav a {
+        display: inline-block;
+        padding-left: 15px;
+        list-style: none;
+     
+      }
+
+     }
+
 
   }
